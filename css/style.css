@@ -1,0 +1,247 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* header styles */
+
+header {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    /* text aligned to right below */
+    text-align: right; 
+}
+
+.header-container {
+    /* giving padding to place them towards the center */
+    padding: 200px 200px 0 0;
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.header-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #777777;
+}
+
+.btn-contact {
+    background-color: #F15B22;
+    color: white;
+    margin-top: 35px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+/* section styles */
+
+.failures-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.img-person {
+    padding-left: 200px;
+    padding-right: 85px;
+}
+
+.failures-header {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.failures-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #777777;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.failures-list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.check-img {
+    padding-right: 10px;
+}
+
+.list-item > li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 8px;
+}
+
+/* plans section style */
+
+.plans-section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.plans-header {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px 80px 40px;
+}
+
+.plan-item {
+    padding-left: 80px;
+    text-align: center;
+}
+
+.plan-item-img {
+    width: 80px;
+    height: 80px;
+    padding-bottom: 20px;
+}
+
+.plan-item-header {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.plan-item-text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #777777;
+}
+
+.proverb {
+    background: linear-gradient(to right, #f15d22, #f15d2200), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    height: 250px;
+    width: 1140px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-top: 65px;
+}
+
+.proverb-header{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: white;
+
+}
+
+.btn-call-now {
+    color: #F15B22;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 35px;
+    margin-top: 25px;
+}
+
+/* footer style */
+footer {
+    width: 100vw;
+    margin-top: 130px;
+    background-color: black;
+}
+
+.footer-container {
+    height: 60vh;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-left {
+    width: 485px;
+    height: 320px;
+}
+
+.footer-left-header {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.footer-left-description {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 25px;
+    padding-bottom: 25px;
+}
+
+.email {
+    padding-bottom: 16px;
+}
+
+.phone {
+    padding-bottom: 32px;
+}
+
+.footer-social-img {
+    padding-right: 16px;
+}
+
+.footer-right-header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.email-input {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 160px 20px 20px;
+    margin-bottom: 16px;
+}
+
+.email-input::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-subscribe {
+    background-color: white;
+    color: #f15d22;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+}
