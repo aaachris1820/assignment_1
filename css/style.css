@@ -8,6 +8,7 @@
 header {
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     /* text aligned to right below */
@@ -29,7 +30,7 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
-    color: #777777;
+    color: #706f6f;
 }
 
 .btn-contact {
@@ -49,16 +50,15 @@ header {
 .failures-section {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100%;
     margin-top: 100px;
 }
 
-.img-person {
-    padding-left: 200px;
-    padding-right: 85px;
+.failures-text-container {
+    margin-left: 100px;
 }
-
 .failures-header {
     font-size: 40px;
     font-weight: 700;
@@ -69,7 +69,7 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
-    color: #777777;
+    color: #707070;
     margin-top: 25px;
     margin-bottom: 20px;
 }
@@ -116,7 +116,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px 80px 40px;
+    padding: 0 120px 130px 40px;
 }
 
 .plan-item {
@@ -125,8 +125,8 @@ header {
 }
 
 .plan-item-img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     padding-bottom: 20px;
 }
 
@@ -176,7 +176,7 @@ header {
 /* footer style */
 footer {
     width: 100vw;
-    margin-top: 150px;
+    margin-top: 120px;
     background-color: black;
 }
 
@@ -197,32 +197,32 @@ footer {
 .footer-left-header {
     font-size: 45px;
     font-weight: 700;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer-left-description {
     font-size: 16px;
     font-weight: 400px;
     line-height: 25px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .email {
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .phone {
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .footer-social-img {
-    padding-right: 16px;
+    margin-right: 16px;
 }
 
 .footer-right-header {
     font-size: 25px;
     font-weight: 600;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .email-input {
